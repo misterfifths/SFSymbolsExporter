@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD021557277287AD00F12BD6 /* SFSymbolsExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = BD021556277287AD00F12BD6 /* SFSymbolsExporter.m */; };
+		BDBB7CC3276E772B00619951 /* NSImage+SFSymbolsHackery.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBB7CC2276E772B00619951 /* NSImage+SFSymbolsHackery.m */; };
+		BDBB7CCC276EB57500619951 /* DrawingCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBB7CCB276EB57500619951 /* DrawingCategories.m */; };
+		BDBB7CCF276EB88600619951 /* NSImage+AlignmentRectUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBB7CCE276EB88600619951 /* NSImage+AlignmentRectUtils.m */; };
+		BDF4FB19276C4EC600F25762 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF4FB18276C4EC600F25762 /* AppDelegate.m */; };
+		BDF4FB1C276C4EC600F25762 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF4FB1B276C4EC600F25762 /* ViewController.m */; };
+		BDF4FB1E276C4EC600F25762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF4FB1D276C4EC600F25762 /* Assets.xcassets */; };
+		BDF4FB21276C4EC600F25762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF4FB1F276C4EC600F25762 /* Main.storyboard */; };
+		BDF4FB23276C4EC600F25762 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF4FB22276C4EC600F25762 /* main.m */; };
+		BDF4FB33276C4F6E00F25762 /* DragTargetWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF4FB32276C4F6E00F25762 /* DragTargetWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD021555277287AD00F12BD6 /* SFSymbolsExporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFSymbolsExporter.h; sourceTree = "<group>"; };
+		BD021556277287AD00F12BD6 /* SFSymbolsExporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFSymbolsExporter.m; sourceTree = "<group>"; };
+		BDBB7CC1276E772B00619951 /* NSImage+SFSymbolsHackery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSImage+SFSymbolsHackery.h"; sourceTree = "<group>"; };
+		BDBB7CC2276E772B00619951 /* NSImage+SFSymbolsHackery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSImage+SFSymbolsHackery.m"; sourceTree = "<group>"; };
+		BDBB7CCA276EB57500619951 /* DrawingCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingCategories.h; sourceTree = "<group>"; };
+		BDBB7CCB276EB57500619951 /* DrawingCategories.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingCategories.m; sourceTree = "<group>"; };
+		BDBB7CCD276EB88600619951 /* NSImage+AlignmentRectUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSImage+AlignmentRectUtils.h"; sourceTree = "<group>"; };
+		BDBB7CCE276EB88600619951 /* NSImage+AlignmentRectUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSImage+AlignmentRectUtils.m"; sourceTree = "<group>"; };
+		BDF4FB14276C4EC600F25762 /* SF Symbols Exporter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SF Symbols Exporter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF4FB17276C4EC600F25762 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BDF4FB18276C4EC600F25762 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BDF4FB1A276C4EC600F25762 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BDF4FB1B276C4EC600F25762 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BDF4FB1D276C4EC600F25762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDF4FB20276C4EC600F25762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDF4FB22276C4EC600F25762 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDF4FB31276C4F6E00F25762 /* DragTargetWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragTargetWindow.h; sourceTree = "<group>"; };
+		BDF4FB32276C4F6E00F25762 /* DragTargetWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragTargetWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDF4FB11276C4EC600F25762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDF4FB0B276C4EC600F25762 = {
+			isa = PBXGroup;
+			children = (
+				BDF4FB16276C4EC600F25762 /* SFSymbolsExporter */,
+				BDF4FB15276C4EC600F25762 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDF4FB15276C4EC600F25762 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDF4FB14276C4EC600F25762 /* SF Symbols Exporter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDF4FB16276C4EC600F25762 /* SFSymbolsExporter */ = {
+			isa = PBXGroup;
+			children = (
+				BDF4FB17276C4EC600F25762 /* AppDelegate.h */,
+				BDF4FB18276C4EC600F25762 /* AppDelegate.m */,
+				BDF4FB31276C4F6E00F25762 /* DragTargetWindow.h */,
+				BDF4FB32276C4F6E00F25762 /* DragTargetWindow.m */,
+				BDF4FB1A276C4EC600F25762 /* ViewController.h */,
+				BDF4FB1B276C4EC600F25762 /* ViewController.m */,
+				BDBB7CC1276E772B00619951 /* NSImage+SFSymbolsHackery.h */,
+				BDBB7CC2276E772B00619951 /* NSImage+SFSymbolsHackery.m */,
+				BDBB7CCD276EB88600619951 /* NSImage+AlignmentRectUtils.h */,
+				BDBB7CCE276EB88600619951 /* NSImage+AlignmentRectUtils.m */,
+				BDBB7CCA276EB57500619951 /* DrawingCategories.h */,
+				BDBB7CCB276EB57500619951 /* DrawingCategories.m */,
+				BD021555277287AD00F12BD6 /* SFSymbolsExporter.h */,
+				BD021556277287AD00F12BD6 /* SFSymbolsExporter.m */,
+				BDF4FB1D276C4EC600F25762 /* Assets.xcassets */,
+				BDF4FB1F276C4EC600F25762 /* Main.storyboard */,
+				BDF4FB22276C4EC600F25762 /* main.m */,
+			);
+			path = SFSymbolsExporter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDF4FB13276C4EC600F25762 /* SF Symbols Exporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF4FB27276C4EC600F25762 /* Build configuration list for PBXNativeTarget "SF Symbols Exporter" */;
+			buildPhases = (
+				BDF4FB10276C4EC600F25762 /* Sources */,
+				BDF4FB11276C4EC600F25762 /* Frameworks */,
+				BDF4FB12276C4EC600F25762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SF Symbols Exporter";
+			productName = SFSymbolsStuff;
+			productReference = BDF4FB14276C4EC600F25762 /* SF Symbols Exporter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDF4FB0C276C4EC600F25762 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					BDF4FB13276C4EC600F25762 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = BDF4FB0F276C4EC600F25762 /* Build configuration list for PBXProject "SFSymbolsExporter" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDF4FB0B276C4EC600F25762;
+			productRefGroup = BDF4FB15276C4EC600F25762 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDF4FB13276C4EC600F25762 /* SF Symbols Exporter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDF4FB12276C4EC600F25762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF4FB1E276C4EC600F25762 /* Assets.xcassets in Resources */,
+				BDF4FB21276C4EC600F25762 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDF4FB10276C4EC600F25762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBB7CCC276EB57500619951 /* DrawingCategories.m in Sources */,
+				BD021557277287AD00F12BD6 /* SFSymbolsExporter.m in Sources */,
+				BDF4FB1C276C4EC600F25762 /* ViewController.m in Sources */,
+				BDF4FB23276C4EC600F25762 /* main.m in Sources */,
+				BDF4FB33276C4F6E00F25762 /* DragTargetWindow.m in Sources */,
+				BDBB7CCF276EB88600619951 /* NSImage+AlignmentRectUtils.m in Sources */,
+				BDBB7CC3276E772B00619951 /* NSImage+SFSymbolsHackery.m in Sources */,
+				BDF4FB19276C4EC600F25762 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BDF4FB1F276C4EC600F25762 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF4FB20276C4EC600F25762 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDF4FB25276C4EC600F25762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BDF4FB26276C4EC600F25762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BDF4FB28276C4EC600F25762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.misterfifths.SFSymbolsExporter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		BDF4FB29276C4EC600F25762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.misterfifths.SFSymbolsExporter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDF4FB0F276C4EC600F25762 /* Build configuration list for PBXProject "SFSymbolsExporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF4FB25276C4EC600F25762 /* Debug */,
+				BDF4FB26276C4EC600F25762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF4FB27276C4EC600F25762 /* Build configuration list for PBXNativeTarget "SF Symbols Exporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF4FB28276C4EC600F25762 /* Debug */,
+				BDF4FB29276C4EC600F25762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDF4FB0C276C4EC600F25762 /* Project object */;
+}
